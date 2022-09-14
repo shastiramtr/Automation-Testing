@@ -19,7 +19,7 @@ public class Checkbox {
 		Firstcheckbox.click();
 		
 		WebElement Seleniumcheckbox =driver.findElement(By.xpath("//*[@id=\"contentblock\"]/section/div[2]/input"));
-		boolean selected = Seleniumcheckbox.isSelected();
+		boolean selected = Seleniumcheckbox.isSelected ();
 		System.out.println(selected);
 		
 		WebElement firstelement=driver.findElement(By.xpath("//*[@id=\"contentblock\"]/section/div[3]/input[1]"));

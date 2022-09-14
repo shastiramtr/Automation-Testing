@@ -17,7 +17,7 @@ public class RadioButton {
 		
 		WebElement unchecked =driver.findElement(By.xpath("/html/body/div/div/div[3]/section/div[3]/div/div/input[1]"));
 		WebElement checked=driver.findElement(By.xpath("/html/body/div/div/div[3]/section/div[3]/div/div/input[2]"));
-		
+		 
 		boolean status1=unchecked.isSelected();
 		boolean status2=checked.isSelected();
 		
